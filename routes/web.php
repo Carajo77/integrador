@@ -27,3 +27,7 @@ Route::get('/registrarse',function (){
 Route::get('/franco',function (){
   return view('franco');
 });
+
+Route::get('/pepe',function (){
+  return view('pepe');
+});
