@@ -24,6 +24,10 @@ Route::get('/registrarse',function (){
   return view('registrarse');
 });
 
-Route::get('/pablo',function (){
-  return view('pablo');
+Route::get('/franco',function (){
+  return view('franco');
+});
+
+Route::get('/pepe',function (){
+  return view('pepe');
 });
