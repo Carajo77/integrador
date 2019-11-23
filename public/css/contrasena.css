@@ -1,0 +1,24 @@
+body {
+  background: url(../img/lago.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+}
+.container {
+  font-family: sans-serif;
+  margin-top: 100px;
+  color: #fff;
+  box-sizing: border-box;
+}
+h3{
+  color: #fff;
+  text-align: center;
+  margin-top: 100px;
+}
+.enviar {
+  color: #fff;
+  background-color: #0867B4;
+  margin-left: 40%;
+
+}

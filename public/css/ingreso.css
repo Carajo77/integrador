@@ -1,0 +1,51 @@
+body {
+  background: url(../img/ingreso.jpg);
+  background: cover;
+  height: 100%;
+}
+.container {
+  font-family: sans-serif;
+  margin-top: 120px;
+  width: 300px;
+  background: rgba(0,0,255,0.0);
+  color: #000;
+  box-sizing: border-box;
+  border: white 3px inset;
+  padding: 10px 30px;
+  box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
+
+}
+
+.ingresar {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  color: #fff;
+  background: #000;
+}
+.ingresar:hover {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  color:#004182;
+	background-color:white;
+	border:solid 1px #004182;
+}
+.recuerda {
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color:#fff;
+}
+.recuerda2 {
+  display: block;
+  color: #fff;
+}
+
+.usuario {
+  margin-bottom: 20px;
+}
+h3 {
+  margin-bottom: 30px;
+
+}
