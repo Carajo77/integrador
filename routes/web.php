@@ -23,3 +23,7 @@ Route::get('/contrasena',function (){
 Route::get('/registrarse',function (){
   return view('registrarse');
 });
+
+Route::get('/franco',function (){
+  return view('franco');
+});
