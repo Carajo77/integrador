@@ -24,10 +24,10 @@ Route::get('/registrarse',function (){
   return view('registrarse');
 });
 
-Route::get('/franco',function (){
-  return view('franco');
-});
-
 Route::get('/pepe',function (){
   return view('pepe');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
