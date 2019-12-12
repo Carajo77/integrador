@@ -45,6 +45,13 @@
                   <a class="nav-link" href="contacto.php">Contacto</a>
                 </li>
 
+                @if (session('status'))
+                        <div class="alert alert-success" role="alert">
+                            {{ session('status') }}
+                        </div>
+                
+                    @endif
+
                 <li class="nav-item">
                   <a class="nav-link btn btn-success text-white boton-ingresar" href="login" >Ingresar</a>
                 </li>
