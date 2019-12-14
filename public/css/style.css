@@ -1,5 +1,6 @@
 body {
-	font-family: 'Comfortaa', cursive;
+	font-family: 'Ubuntu', sans-serif;
+
 }
 .carousel-item {
 	height:75vh;
@@ -80,4 +81,10 @@ body {
 	background-color:black;
 	color:white;
 	border-radius:25px;
+}
+.fondo-login {
+	background-color:white;
+}
+body {
+	background-color:transparent;
 }

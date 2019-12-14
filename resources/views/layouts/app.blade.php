@@ -19,7 +19,7 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="app">
@@ -42,7 +42,7 @@
                     
                     <ul class="navbar-nav ml-auto">
 
-                        <li class="nav-item active">
+                        <li class="nav-item">
                           <a class="nav-link" href="index.php">Inicio <span class="sr-only">(current)</span></a>
                         </li>
 
