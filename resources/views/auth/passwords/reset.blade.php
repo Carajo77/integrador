@@ -9,7 +9,7 @@
             </div>
             <div class="col-md-6" style="align-self:center;">
                 <div class="card">
-                    <div class="card-header">Olvida</div>
+                    <div class="card-header">franco</div>
 
                     <div class="card-body">
                         <form method="POST" action="{{ route('password.update') }}">
