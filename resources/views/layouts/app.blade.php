@@ -49,7 +49,7 @@
                             </li>
 
                             <li class="nav-item">
-                              <a class="nav-link" href="destacados.php">Destacadas</a>
+                              <a class="nav-link" href="/cabanas">Cabañas</a>
                             </li>
                             <li class="nav-item">
                               <a class="nav-link" href="#clientes">Clientes</a>
@@ -102,7 +102,7 @@
             </div>
         </nav>
 
-        <main class="py-4">
+        <main>
             @yield('content')
         </main>
     </div>
