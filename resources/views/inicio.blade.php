@@ -126,27 +126,28 @@
 
         <div class="col-md-4 text-center">
           <div class="fondo">
-            <img src="/img/01.jpeg" alt="" class="img-fluid">
+            <img src="/img/parejas.jpg" alt="" class="img-fluid">
             <h4>Parejas</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ipsum impedit incidunt mollitia maiores voluptas, earum inventore eos, similique tempore.</p>
+            <p>Potrerillos</p>
+            <p>La estadia ideal, sin el esfuerzo previo de planificación.</p>
             <a href="detalles.php" class="btn btn-success btn-lg boton-detalle" role="button" aria-pressed="true">Detalles</a>
           </div>
         </div>
 
         <div class="col-md-4 text-center ">
           <div class="fondo">
-            <img src="/img/02.jpeg" alt="" class="img-fluid">
-            <h4>Cabaña 02</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ipsum impedit incidunt mollitia maiores voluptas, earum inventore eos, similique tempore.</p>
+            <img src="/img/Cabalgatas.jpg" alt="" class="img-fluid">
+            <h4>Cabalgatas</h4>
+            <p>Cabalgatas en un paisaje soñado.</p>
             <a href="detalles.php" class="btn btn-success btn-lg boton-detalle" role="button" aria-pressed="true">Detalles</a>
           </div>
         </div>
 
         <div class="col-md-4 text-center">
           <div class="fondo">
-            <img src="/img/03.jpeg" alt="" class="img-fluid">
-            <h4>Cabaña 03</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ipsum impedit incidunt mollitia maiores voluptas, earum inventore eos, similique tempore.</p>
+            <img src="/img/Kayak.jpg" alt="" class="img-fluid">
+            <h4>Kayak</h4>
+            <p>Aventurar+Conectar+Experimentar.</p>
             <a href="detalles.php" class="btn btn-success btn-lg boton-detalle" role="button" aria-pressed="true">Detalles</a>
           </div>
         </div>
