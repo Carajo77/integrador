@@ -14,6 +14,9 @@
 Route::get('/', function () {
     return view('inicio');
 });
+Route::get('/destacadas',function(){
+  return view('destacadas');
+});
 Route::get('/ingreso',function (){
    return view('ingreso');
 });

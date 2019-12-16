@@ -14,7 +14,7 @@
 
   <!-- MENU -->
 
-  <div class="container-fluid bg-light fixed-top">
+  <div class="container-fluid bg-light fixed-top" >
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -32,7 +32,7 @@
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="destacados.php">Destacadas</a>
+                  <a class="nav-link" href="destacadas">Destacadas</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#clientes">Clientes</a>
@@ -49,7 +49,7 @@
                         <div class="alert alert-success" role="alert">
                             {{ session('status') }}
                         </div>
-                
+
                     @endif
 
                 <li class="nav-item">
@@ -112,48 +112,6 @@
             </a>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- DESTACADAS -->
-
-  <div class="container-fluid pt-5 pb-5">
-    <div class="container">
-      <div class="row mb-5">
-        <div class="col-md-12 text-center">
-          <h2>Cabañas Destacadas</h2>
-        </div>
-      </div>
-      <div class="row">
-
-        <div class="col-md-4 text-center">
-          <div class="fondo">
-            <img src="/img/01.jpeg" alt="" class="img-fluid">
-            <h4>Cabaña 01</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ipsum impedit incidunt mollitia maiores voluptas, earum inventore eos, similique tempore.</p>
-            <a href="detalles.php" class="btn btn-success btn-lg boton-detalle" role="button" aria-pressed="true">Detalles</a>
-          </div>
-        </div>
-
-        <div class="col-md-4 text-center ">
-          <div class="fondo">
-            <img src="/img/02.jpeg" alt="" class="img-fluid">
-            <h4>Cabaña 02</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ipsum impedit incidunt mollitia maiores voluptas, earum inventore eos, similique tempore.</p>
-            <a href="detalles.php" class="btn btn-success btn-lg boton-detalle" role="button" aria-pressed="true">Detalles</a>
-          </div>
-        </div>
-
-        <div class="col-md-4 text-center">
-          <div class="fondo">
-            <img src="/img/03.jpeg" alt="" class="img-fluid">
-            <h4>Cabaña 03</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ipsum impedit incidunt mollitia maiores voluptas, earum inventore eos, similique tempore.</p>
-            <a href="detalles.php" class="btn btn-success btn-lg boton-detalle" role="button" aria-pressed="true">Detalles</a>
-          </div>
-        </div>
-
       </div>
     </div>
   </div>
