@@ -1,5 +1,6 @@
 body {
-	font-family: 'Comfortaa', cursive;
+	font-family: 'Ubuntu', sans-serif;
+
 }
 .carousel-item {
 	height:75vh;
@@ -80,4 +81,36 @@ body {
 	background-color:black;
 	color:white;
 	border-radius:25px;
+}
+.fondo-login {
+	background-color:white;
+}
+body {
+	background-color:transparent;
+}
+.card-listado-cabanas {
+	color: black;
+    text-align: center;
+    text-decoration:none;
+}
+.cuerpo-listado-cabanas {
+	transition: all 0.5s ease-out;
+}
+.cuerpo-listado-cabanas:hover {
+	box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
+}
+.aside-fijo-listado {
+	position:sticky;
+    background-color:#f4f4f4;
+    padding-left: 15px;
+    padding-right: 15px;top:0
+}
+.aside-m3-fijo {
+	padding-left:0;
+	padding-right:0;
+}
+.fondo-titulo-listado {
+	background-image:url('/img/portada-listado.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
 }

@@ -1,14 +1,6 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="/css/app.css">
-    <link rel="stylesheet" href="/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
-  </head>
-  <body>
+@extends('layouts.app')
 
+<<<<<<< HEAD
 
 
 
@@ -63,6 +55,9 @@
       </div>
     </div>
   </div>
+=======
+@section('content')
+>>>>>>> c8b271e07ec6968db236c43f8e21cff76b615f56
 
   <!-- PORTADA -->
 
@@ -116,6 +111,51 @@
     </div>
   </div>
 
+<<<<<<< HEAD
+=======
+  <!-- DESTACADAS -->
+
+  <div class="container-fluid pt-5 pb-5">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-md-12 text-center">
+          <h2>Cabañas Destacadas</h2>
+        </div>
+      </div>
+      <div class="row">
+
+        <div class="col-md-4 text-center">
+          <div class="fondo">
+            <img src="/img/01.jpeg" alt="" class="img-fluid">
+            <h4>Parejas</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ipsum impedit incidunt mollitia maiores voluptas, earum inventore eos, similique tempore.</p>
+            <a href="detalles.php" class="btn btn-success btn-lg boton-detalle" role="button" aria-pressed="true">Detalles</a>
+          </div>
+        </div>
+
+        <div class="col-md-4 text-center ">
+          <div class="fondo">
+            <img src="/img/02.jpeg" alt="" class="img-fluid">
+            <h4>Cabaña 02</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ipsum impedit incidunt mollitia maiores voluptas, earum inventore eos, similique tempore.</p>
+            <a href="detalles.php" class="btn btn-success btn-lg boton-detalle" role="button" aria-pressed="true">Detalles</a>
+          </div>
+        </div>
+
+        <div class="col-md-4 text-center">
+          <div class="fondo">
+            <img src="/img/03.jpeg" alt="" class="img-fluid">
+            <h4>Cabaña 03</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ipsum impedit incidunt mollitia maiores voluptas, earum inventore eos, similique tempore.</p>
+            <a href="detalles.php" class="btn btn-success btn-lg boton-detalle" role="button" aria-pressed="true">Detalles</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+>>>>>>> c8b271e07ec6968db236c43f8e21cff76b615f56
   <!-- FAQ -->
 
   <div class="container-fluid pt-5 pb-5 bg-light">
@@ -225,5 +265,4 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
-</html>
+@endsection

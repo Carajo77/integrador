@@ -34,6 +34,8 @@ Route::get('/cabañas',function (){
   return view('cabanas');
 });
 
+Route::get('/cabanas','CabanasController@listado');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
