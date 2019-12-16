@@ -60,35 +60,33 @@
     <div class="container">
       <div class="row mb-5">
         <div class="col-md-12 text-center">
-          <h2>Experiencias Unicas</h2>
+          <h2>Cabañas Destacadas</h2>
         </div>
       </div>
       <div class="row">
 
         <div class="col-md-4 text-center">
           <div class="fondo">
-            <img src="/img/parejas.jpg" alt="" class="img-fluid">
-            <h4>Parejas</h4>
-            <p></p>
+            <img src="/img/01.jpeg" alt="" class="img-fluid">
+            <h4>Cabaña 01</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ipsum impedit incidunt mollitia maiores voluptas, earum inventore eos, similique tempore.</p>
             <a href="detalles.php" class="btn btn-success btn-lg boton-detalle" role="button" aria-pressed="true">Detalles</a>
           </div>
         </div>
 
         <div class="col-md-4 text-center ">
           <div class="fondo">
-            <img src="/img/cabalgatas.jpg" alt="" class="img-fluid">
-            <h4>Cabalgatas</h4>
-            <p>Potrerillos</p>
-            <p>Paseo y cabalgata en la naturaleza.</p>
-            <p>Desde $250 </p>
+            <img src="/img/02.jpeg" alt="" class="img-fluid">
+            <h4>Cabaña 02</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ipsum impedit incidunt mollitia maiores voluptas, earum inventore eos, similique tempore.</p>
             <a href="detalles.php" class="btn btn-success btn-lg boton-detalle" role="button" aria-pressed="true">Detalles</a>
           </div>
         </div>
 
         <div class="col-md-4 text-center">
           <div class="fondo">
-            <img src="/img/kayak.jpg" alt="" class="img-fluid">
-            <h4>Kayak</h4>
+            <img src="/img/03.jpeg" alt="" class="img-fluid">
+            <h4>Cabaña 03</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ipsum impedit incidunt mollitia maiores voluptas, earum inventore eos, similique tempore.</p>
             <a href="detalles.php" class="btn btn-success btn-lg boton-detalle" role="button" aria-pressed="true">Detalles</a>
           </div>
