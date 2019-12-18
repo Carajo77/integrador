@@ -30,6 +30,15 @@ Route::get('/pepe',function (){
 Route::get('/cabañas',function (){
   return view('cabanas');
 });
+Route::get('/mercadopago',function (){
+  return view('mercado');
+});
+Route::get('/producto',function (){
+  return view('producto');
+});
+Route::get('/aprobado',function (){
+  return view('aprobado');
+});
 
 Route::get('/cabanas','CabanasController@listado');
 
