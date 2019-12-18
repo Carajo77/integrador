@@ -19,24 +19,22 @@
                 <img src="/img/slider/2yz1ybgdngb21.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h1 class="text-uppercase">Bienvenidos</h1>
-                  <p>Un finde soñado</p>
-                  <a href="" class="btn btn-success boton-explorar">Explorar</a>
+
+
                 </div>
               </div>
               <div class="carousel-item">
                 <img src="/img/slider/_mg_7691-editar.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h1 class="text-uppercase">Bienvenidos</h1>
-                  <p>Un finde soñado</p>
-                  <a href="" class="btn btn-success boton-explorar">Explorar</a>
                 </div>
               </div>
               <div class="carousel-item">
                 <img src="/img/slider/lago-potrerillos.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h1 class="text-uppercase">Bienvenidos</h1>
-                  <p>Un finde soñado</p>
-                  <a href="" class="btn btn-success boton-explorar">Explorar</a>
+
+
                 </div>
               </div>
             </div>
@@ -67,27 +65,30 @@
 
         <div class="col-md-4 text-center">
           <div class="fondo">
-            <img src="/img/01.jpeg" alt="" class="img-fluid">
-            <h4>Cabaña 01</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ipsum impedit incidunt mollitia maiores voluptas, earum inventore eos, similique tempore.</p>
+            <img src="/img/parejas.jpg" alt="" class="img-fluid">
+            <h4>Parejas</h4>
+            <p>Potrerillos</p>
+            <p>Aventurar+Desconectar</p>
+            <p>Un finde soñado para disfrutar en pareja</p>
             <a href="detalles.php" class="btn btn-success btn-lg boton-detalle" role="button" aria-pressed="true">Detalles</a>
           </div>
         </div>
 
         <div class="col-md-4 text-center ">
           <div class="fondo">
-            <img src="/img/02.jpeg" alt="" class="img-fluid">
-            <h4>Cabaña 02</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ipsum impedit incidunt mollitia maiores voluptas, earum inventore eos, similique tempore.</p>
+            <img src="/img/Cabalgatas.jpg" alt="" class="img-fluid">
+            <h4>Cabalgatas</h4>
+            <p></p>
             <a href="detalles.php" class="btn btn-success btn-lg boton-detalle" role="button" aria-pressed="true">Detalles</a>
           </div>
         </div>
 
         <div class="col-md-4 text-center">
           <div class="fondo">
-            <img src="/img/03.jpeg" alt="" class="img-fluid">
-            <h4>Cabaña 03</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ipsum impedit incidunt mollitia maiores voluptas, earum inventore eos, similique tempore.</p>
+            <img src="/img/Kayak.jpg" alt="" class="img-fluid">
+            <h4>Kayak</h4>
+            <p>Carrizal</p>
+            <p>.</p>
             <a href="detalles.php" class="btn btn-success btn-lg boton-detalle" role="button" aria-pressed="true">Detalles</a>
           </div>
         </div>
