@@ -114,3 +114,18 @@ body {
 	background-size:cover;
 	background-repeat:no-repeat;
 }
+/*color del boton faq*/
+.btn-color-faq{
+	color:#05ddbf;
+
+}
+.btn-link:hover{
+	text-decoration: none;
+
+}
+.btn-link:focus{
+	text-decoration: none;
+
+}.preguntas-frecuentes{
+	margin-bottom: 30px;
+}
