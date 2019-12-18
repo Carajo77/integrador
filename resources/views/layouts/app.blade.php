@@ -40,10 +40,10 @@
                     </ul>
 
                     <!-- Right Side Of Navbar -->
-                    
+
                     <ul class="navbar-nav ml-auto">
                         <!-- Authentication Links -->
-                        @guest             
+                        @guest
                             <li class="nav-item">
                               <a class="nav-link" href="index.php">Inicio <span class="sr-only">(current)</span></a>
                             </li>
@@ -51,16 +51,7 @@
                             <li class="nav-item">
                               <a class="nav-link" href="/cabanas">Cabañas</a>
                             </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#clientes">Clientes</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#faq">FAQ</a>
-                            </li>
-
-                            <li class="nav-item">
-                              <a class="nav-link" href="contacto.php">Contacto</a>
-                            </li>
+                          
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('login') }}">Ingresar</a>
                             </li>
@@ -88,7 +79,7 @@
                                                      document.getElementById('logout-form').submit();">
                                         <i class="fa fa-sign-out" aria-hidden="true"></i> Salir
                                     </a>
-                                    
+
 
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                         @csrf

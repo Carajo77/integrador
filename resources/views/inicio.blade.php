@@ -20,7 +20,7 @@
                 <div class="carousel-caption d-none d-md-block">
                   <h1 class="text-uppercase">Bienvenidos</h1>
                   <p>Un finde soñado</p>
-                  <a href="" class="btn btn-success boton-explorar">Explorar</a>
+
                 </div>
               </div>
               <div class="carousel-item">
@@ -28,7 +28,7 @@
                 <div class="carousel-caption d-none d-md-block">
                   <h1 class="text-uppercase">Bienvenidos</h1>
                   <p>Un finde soñado</p>
-                  <a href="" class="btn btn-success boton-explorar">Explorar</a>
+
                 </div>
               </div>
               <div class="carousel-item">
@@ -36,7 +36,7 @@
                 <div class="carousel-caption d-none d-md-block">
                   <h1 class="text-uppercase">Bienvenidos</h1>
                   <p>Un finde soñado</p>
-                  <a href="" class="btn btn-success boton-explorar">Explorar</a>
+
                 </div>
               </div>
             </div>
@@ -88,7 +88,7 @@
           <div class="fondo">
             <img src="/img/Kayak.jpg" alt="" class="img-fluid">
             <h4>Kayak</h4>
-            <p>Aventurar+Conectar+Experimentar.</p>
+            <p>Aventurar+Conectar+Experimenta.</p>
             <a href="detalles.php" class="btn btn-success btn-lg boton-detalle" role="button" aria-pressed="true">Detalles</a>
           </div>
         </div>
@@ -162,7 +162,10 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <form>
+            
+            <form class="" action="/inicio" method="post">
+               {{csrf_field()}}
+            </form>
               <div class="form-group">
                 <label for="">Nombre</label>
                 <input type="text" name="nombre" class="form-control" placeholder="Ingresar nombre" required>

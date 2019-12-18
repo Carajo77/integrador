@@ -31,6 +31,8 @@ Route::get('/cabañas',function (){
   return view('cabanas');
 });
 
+Route::post('/inicio', 'InicioController@agregar');
+
 Route::get('/cabanas','CabanasController@listado');
 
 Auth::routes();
