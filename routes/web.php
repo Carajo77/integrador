@@ -14,9 +14,6 @@
 Route::get('/', function () {
     return view('inicio');
 });
-Route::get('/destacadas',function(){
-  return view('destacadas');
-});
 Route::get('/ingreso',function (){
    return view('ingreso');
 });
@@ -35,10 +32,6 @@ Route::get('/cabañas',function (){
 });
 
 Route::get('/cabanas','CabanasController@listado');
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
 
 Auth::routes();
 

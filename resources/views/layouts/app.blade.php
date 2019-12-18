@@ -13,15 +13,6 @@
     <script src="{{ asset('js/app.js') }}" defer></script>
 
     <!-- Fonts -->
-<<<<<<< HEAD
-    <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/destacadas.css">
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
-
-
-=======
     <!-- <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"> -->
 
@@ -30,7 +21,6 @@
     <link rel="stylesheet" href="/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
->>>>>>> c8b271e07ec6968db236c43f8e21cff76b615f56
 </head>
 <body>
     <div id="app">
@@ -50,7 +40,7 @@
                     </ul>
 
                     <!-- Right Side Of Navbar -->
-
+                    
                     <ul class="navbar-nav ml-auto">
                         <!-- Authentication Links -->
                         @guest             
@@ -58,27 +48,6 @@
                               <a class="nav-link" href="index.php">Inicio <span class="sr-only">(current)</span></a>
                             </li>
 
-<<<<<<< HEAD
-                        <li class="nav-item active">
-                          <a class="nav-link" href="index.php">Inicio <span class="sr-only">(current)</span></a>
-                        </li>
-
-                        <li class="nav-item">
-                          <a class="nav-link" href="destacados.php">Destacadas</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#clientes">Clientes</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#faq">FAQ</a>
-                        </li>
-
-                        <li class="nav-item">
-                          <a class="nav-link" href="contacto.php">Contacto</a>
-                        </li>
-
-
-=======
                             <li class="nav-item">
                               <a class="nav-link" href="/cabanas">Cabañas</a>
                             </li>
@@ -88,7 +57,6 @@
                             <li class="nav-item">
                               <a class="nav-link" href="#faq">FAQ</a>
                             </li>
->>>>>>> c8b271e07ec6968db236c43f8e21cff76b615f56
 
                             <li class="nav-item">
                               <a class="nav-link" href="contacto.php">Contacto</a>
@@ -102,11 +70,6 @@
                                 </li>
                             @endif
                         @else
-<<<<<<< HEAD
-
-                            <li class="nav-item dropdown">
-                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-=======
                             <li class="nav-item">
                                 <a class="nav-link" href="/resservas">Mis reservas</a>
                             </li>
@@ -115,7 +78,6 @@
                             </li>
                             <li class="nav-item dropdown" style="background-color:black;border-radius:25px;">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
->>>>>>> c8b271e07ec6968db236c43f8e21cff76b615f56
                                     {{ Auth::user()->name }} <span class="caret"></span>
                                 </a>
 
