@@ -1,6 +1,63 @@
 @extends('layouts.app')
 
+<<<<<<< HEAD
+
+
+
+  <!-- MENU -->
+
+  <div class="container-fluid bg-light fixed-top" >
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="index.php">Cabañas</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.php">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="destacadas">Destacadas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#clientes">Clientes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#faq">FAQ</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="contacto.php">Contacto</a>
+                </li>
+
+                @if (session('status'))
+                        <div class="alert alert-success" role="alert">
+                            {{ session('status') }}
+                        </div>
+
+                    @endif
+
+                <li class="nav-item">
+                  <a class="nav-link btn btn-success text-white boton-ingresar" href="login" >Ingresar</a>
+                </li>
+
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+=======
 @section('content')
+>>>>>>> c8b271e07ec6968db236c43f8e21cff76b615f56
 
   <!-- PORTADA -->
 
@@ -54,6 +111,8 @@
     </div>
   </div>
 
+<<<<<<< HEAD
+=======
   <!-- DESTACADAS -->
 
   <div class="container-fluid pt-5 pb-5">
@@ -67,27 +126,34 @@
 
         <div class="col-md-4 text-center">
           <div class="fondo">
+<<<<<<< HEAD
             <img src="/img/01.jpeg" alt="" class="img-fluid">
             <h4>Cabaña 01</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ipsum impedit incidunt mollitia maiores voluptas, earum inventore eos, similique tempore.</p>
+=======
+            <img src="/img/parejas.jpg" alt="" class="img-fluid">
+            <h4>Parejas</h4>
+            <p>Potrerillos</p>
+            <p>La estadia ideal, sin el esfuerzo previo de planificación.</p>
+>>>>>>> 5cedb90d4f8799e47bf1470db993976f7f4c7f7b
             <a href="detalles.php" class="btn btn-success btn-lg boton-detalle" role="button" aria-pressed="true">Detalles</a>
           </div>
         </div>
 
         <div class="col-md-4 text-center ">
           <div class="fondo">
-            <img src="/img/02.jpeg" alt="" class="img-fluid">
-            <h4>Cabaña 02</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ipsum impedit incidunt mollitia maiores voluptas, earum inventore eos, similique tempore.</p>
+            <img src="/img/Cabalgatas.jpg" alt="" class="img-fluid">
+            <h4>Cabalgatas</h4>
+            <p>Cabalgatas en un paisaje soñado.</p>
             <a href="detalles.php" class="btn btn-success btn-lg boton-detalle" role="button" aria-pressed="true">Detalles</a>
           </div>
         </div>
 
         <div class="col-md-4 text-center">
           <div class="fondo">
-            <img src="/img/03.jpeg" alt="" class="img-fluid">
-            <h4>Cabaña 03</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ipsum impedit incidunt mollitia maiores voluptas, earum inventore eos, similique tempore.</p>
+            <img src="/img/Kayak.jpg" alt="" class="img-fluid">
+            <h4>Kayak</h4>
+            <p>Aventurar+Conectar+Experimentar.</p>
             <a href="detalles.php" class="btn btn-success btn-lg boton-detalle" role="button" aria-pressed="true">Detalles</a>
           </div>
         </div>
@@ -96,6 +162,7 @@
     </div>
   </div>
 
+>>>>>>> c8b271e07ec6968db236c43f8e21cff76b615f56
   <!-- FAQ -->
 
   <div class="container-fluid pt-5 pb-5 bg-light">
