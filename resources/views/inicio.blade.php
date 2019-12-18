@@ -68,7 +68,7 @@
         <div class="col-md-4 text-center">
           <div class="fondo">
             <img src="/img/01.jpeg" alt="" class="img-fluid">
-            <h4>Parejas</h4>
+            <h4>Cabaña 01</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ipsum impedit incidunt mollitia maiores voluptas, earum inventore eos, similique tempore.</p>
             <a href="detalles.php" class="btn btn-success btn-lg boton-detalle" role="button" aria-pressed="true">Detalles</a>
           </div>
