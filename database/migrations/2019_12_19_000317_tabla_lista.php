@@ -29,11 +29,11 @@ class TablaLista extends Migration
           $table->integer('precio_dia')->nullable();
       });
 
-      Schema::create('form-control', function (Blueprint $table) {
+      Schema::create('form-contacto', function (Blueprint $table) {
           $table->bigIncrements('idform-contacto');
-          $table->string('consulta', 45)->nullable();
-          $table->string('email', 45)->nullable();
-          $table->string('nombre', 45)->nullable();
+          $table->string('consulta', 45);
+          $table->string('email', 45);
+          $table->string('nombre', 45);
 
       });
     }
