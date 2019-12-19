@@ -33,6 +33,9 @@ Route::get('/cabañas',function (){
 Route::get('/preguntas-frecuentes',function (){
   return view('preguntas-frecuentes');
 });
+Route::get('/alojamiento',function (){
+  return view('alojamiento');
+});
 
 Route::get('/cabanas','CabanasController@listado');
 
