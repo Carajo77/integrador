@@ -49,3 +49,7 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::post("/form-contacto","contactController@almacenar");
+
+Route::get('/experiencias', function(){
+  return view('/experiencias');
+});
