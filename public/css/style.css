@@ -271,3 +271,53 @@ body {
 	text-decoration: none;
 
 }
+.img-pablo{
+	background-image:url("/img/slider/pablooo.jpg");
+	background-position: center;
+	height: 450px;
+	margin-top: 10px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+}
+.caja-1-pablo{
+	margin-top:95px;
+	color:white;
+}
+
+	.boton-experiencias{
+	  	border:none;
+	  	background-color:white;
+	  	color:black;
+	  	border-radius:25px;
+			width:130px;
+			height:40px;
+	  }
+	  .boton-experiencias:hover {
+	  	border:none;
+	  	background-color:black;
+	  	color:white;
+	  	border-radius:25px;
+			width:130px;
+			height:40px;
+}
+.img-f{
+	height: 190px;
+	width: 240px;
+	border-radius: 10%;
+	margin-left: 5px;
+}
+.pablo-pablo{
+	margin-top: 10px;
+	font-size: 20px;
+}
+.pablo-p{
+	margin-bottom: 7px;
+	margin-top: 10px;
+}
+.pablo-seba{
+	font-size: 40px;
+}
+.pablo-seba-{
+	font-size: 20px;
+}

@@ -71,7 +71,7 @@
             <img class="foto-inicio-seba" src="/img/antuen.jpg" alt=""></a>
         </div>
         <div class="col-md-6 divs-posibilidades">
-          <a href="/aventuras" class="hiper-seba-pablo"> <h2class="seba-seba-seba1">Experiencias</h2>
+          <a href="/experiencias" class="hiper-seba-pablo"> <h2 class="seba-seba-seba1">Experiencias</h2>
             <img class="foto-inicio-seba1" src="/img/306557-P7UDSE-132.jpg" alt=""></a>
         </div>
         </div>
