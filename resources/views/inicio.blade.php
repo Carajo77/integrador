@@ -61,43 +61,22 @@
           <h2>Cabañas Destacadas</h2>
         </div>
       </div>
-      <div class="row">
 
-        <div class="col-md-4 text-center">
-          <div class="fondo">
-            <img src="/img/parejas.jpg" alt="" class="img-fluid">
-            <h4>Parejas</h4>
-            <p>Potrerillos</p>
-            <p>Aventurar+Desconectar</p>
-            <p>Un finde soñado para disfrutar en pareja</p>
-            <a href="detalles.php" class="btn btn-success btn-lg boton-detalle" role="button" aria-pressed="true">Detalles</a>
-          </div>
+
+    <div class="container-fluid seba-caja-2">
+      <div class="container">
+        <div class="row">
+        <div class="col-md-6 divs-posibilidades">
+        <a class="hiper-seba-pablo" href="/alojamiento"> <h2 class="seba-seba-seba">Alojamientos</h2>
+            <img class="foto-inicio-seba" src="/img/antuen.jpg" alt=""></a>
         </div>
-
-        <div class="col-md-4 text-center ">
-          <div class="fondo">
-            <img src="/img/Cabalgatas.jpg" alt="" class="img-fluid">
-            <h4>Cabalgatas</h4>
-            <p></p>
-            <a href="detalles.php" class="btn btn-success btn-lg boton-detalle" role="button" aria-pressed="true">Detalles</a>
-          </div>
+        <div class="col-md-6 divs-posibilidades">
+          <a href="/aventuras" class="hiper-seba-pablo"> <h2class="seba-seba-seba1">Experiencias</h2>
+            <img class="foto-inicio-seba1" src="/img/306557-P7UDSE-132.jpg" alt=""></a>
         </div>
-
-        <div class="col-md-4 text-center">
-          <div class="fondo">
-            <img src="/img/Kayak.jpg" alt="" class="img-fluid">
-            <h4>Kayak</h4>
-            <p>Carrizal</p>
-            <p>.</p>
-            <a href="detalles.php" class="btn btn-success btn-lg boton-detalle" role="button" aria-pressed="true">Detalles</a>
-          </div>
         </div>
-
       </div>
     </div>
-  </div>
-
-  <!-- FAQ -->
 
 
   <!-- CONTACTO -->
