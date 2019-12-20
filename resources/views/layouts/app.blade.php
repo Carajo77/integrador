@@ -128,7 +128,15 @@
                         @endguest
 
                       </ul>
-                      <img src="/storage/{{ Auth::user()->foto }}" alt="" class="img-fluid imagen-usuario-nav">
+                      @guest
+
+
+                        @else
+
+                         <img src="/storage/{{ Auth::user()->foto }}" alt="" class="img-fluid imagen-usuario-nav">
+
+                        @endguest
+                      
                 </div>
             </div>
         </nav>
