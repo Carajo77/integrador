@@ -56,3 +56,7 @@ Route::post("/form-contacto","contactController@almacenar");
 Route::get('/experiencias', function(){
   return view('/experiencias');
 });
+
+Route::get('/perfil-user', function(){
+  return view('/perfil-user');
+});
