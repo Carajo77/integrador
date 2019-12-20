@@ -60,3 +60,6 @@ Route::get('/experiencias', function(){
 Route::get('/perfil-user', function(){
   return view('/perfil-user');
 });
+
+Route::post('/guardar-usuario',"usuariosController@actualizar");
+Route::post('/guardar-foto-usuario',"usuariosController@foto");
