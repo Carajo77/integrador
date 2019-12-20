@@ -57,6 +57,10 @@ Route::get('/experiencias', function(){
   return view('/experiencias');
 });
 
+Route::get('/contacto', function(){
+  return view('/contacto');
+});
+
 Route::get('/perfil-user', function(){
   return view('/perfil-user');
 });
