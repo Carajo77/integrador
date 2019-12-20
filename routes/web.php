@@ -67,3 +67,7 @@ Route::get('/perfil-user', function(){
 
 Route::post('/guardar-usuario',"usuariosController@actualizar");
 Route::post('/guardar-foto-usuario',"usuariosController@foto");
+
+Route::get('/mis-cabanas', function(){
+  return view('/mis-cabanas-user');
+});
