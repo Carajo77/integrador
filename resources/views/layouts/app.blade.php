@@ -61,21 +61,15 @@
                         @guest
 
                             <li class="nav-item">
-                              <a class="nav-link" href="index.php">Inicio <span class="sr-only">(current)</span></a>
+                              <a class="nav-link" href="/">Inicio <span class="sr-only">(current)</span></a>
                             </li>
 
                             <li class="nav-item">
                               <a class="nav-link" href="/cabanas">Cabañas</a>
                             </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#clientes">Clientes</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="/preguntas-frecuentes">FAQ</a>
-                            </li>
 
                             <li class="nav-item">
-                              <a class="nav-link" href="contacto.php">Contacto</a>
+                              <a class="nav-link" href="/contacto">Contacto</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('login') }}">Ingresar</a>
