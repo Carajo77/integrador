@@ -15,6 +15,6 @@ class contactController extends Controller
       $contacto->consulta = $req["consulta"];
       $contacto->save();
 
-      return redirect("/");
+      return redirect("/contacto");
     }
 }
