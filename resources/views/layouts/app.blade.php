@@ -86,12 +86,18 @@
                                 </li>
                             @endif
                         @else
-                            <li class="nav-item">
-                                <a class="nav-link" href="/resservas">Mis reservas</a>
+                        <li class="nav-item">
+                                <a class="nav-link" href="/home">Home</a>
                             </li>
                             <li class="nav-item">
+                                <a class="nav-link" href="/mis-cabanas">Mis Cabañas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/resservas">Mis Reservas</a>
+                            </li>
+                            <!-- <li class="nav-item">
                                 <a class="nav-link" href="{{ route('login') }}">Cupones</a>
-                            </li>
+                            </li> -->
                             <li class="nav-item dropdown" style="background-color:black;border-radius:25px;">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{ Auth::user()->name }} <span class="caret"></span>
@@ -99,6 +105,8 @@
 
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item" href="/perfil-user" ><i class="fa fa-user" aria-hidden="true"></i> Perfil</a>
+                                    <a class="dropdown-item" href="/perfil-user" ><i class="fa fa-question-circle" aria-hidden="true"></i> Ayuda</a>
+                                    <a class="dropdown-item" href="/perfil-user" ><i class="fa fa-envelope" aria-hidden="true"></i> Contacto</a>
                                     <a class="dropdown-item" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
@@ -111,9 +119,16 @@
                                     </form>
                                 </div>
                             </li>
+                            
+                                
+                            
+                            <!-- <li class="nav-item">
+                                <a href="" class="nav-link"></a>
+                            </li> -->
                         @endguest
 
                       </ul>
+                      <img src="/storage/{{ Auth::user()->foto }}" alt="" class="img-fluid imagen-usuario-nav">
                 </div>
             </div>
         </nav>
