@@ -89,7 +89,7 @@
                                 <a class="nav-link" href="/mis-cabanas">Mis Cabañas</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/resservas">Mis Reservas</a>
+                                <a class="nav-link" href="/mis-reservas">Mis Reservas</a>
                             </li>
                             <!-- <li class="nav-item">
                                 <a class="nav-link" href="{{ route('login') }}">Cupones</a>
@@ -115,9 +115,9 @@
                                     </form>
                                 </div>
                             </li>
-                            
-                                
-                            
+
+
+
                             <!-- <li class="nav-item">
                                 <a href="" class="nav-link"></a>
                             </li> -->
@@ -132,7 +132,7 @@
                          <img src="/storage/{{ Auth::user()->foto }}" alt="" class="img-fluid imagen-usuario-nav">
 
                         @endguest
-                      
+
                 </div>
             </div>
         </nav>
