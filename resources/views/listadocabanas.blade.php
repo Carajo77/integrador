@@ -99,7 +99,7 @@ background: linear-gradient(90deg, rgba(186,187,187,1) 6%, rgba(255,255,255,0) 8
                             </div>
                             <div class="row mt-3">
                                 <div class="col-md-12">
-                                    <button class="btn btn-primary" style="width:100%">BUSCAR <i class="fa fa-search" aria-hidden="true"></i></button>
+                                    <button class="btn btn-primary" style="width:100%;border-radius:25px;background-color:#038C7A;">BUSCAR <i class="fa fa-search" aria-hidden="true"></i></button>
                                 </div>
                             </div>
 
@@ -109,51 +109,46 @@ background: linear-gradient(90deg, rgba(186,187,187,1) 6%, rgba(255,255,255,0) 8
             </div>
             <div class="col-md-9">
                 <div class="row">
-                    <div class="col-md-3">
+                    @forelse ($datos as $dato)
+                    <div class="col-md-4 mt-3">
                         <a href="#" class="card-listado-cabanas" style="text-decoration:none">
                             <div class="card cuerpo-listado-cabanas">
-                                <img src="/img/03.jpeg" class="card-img-top" alt="...">
+                                <img src="/storage/{{$dato->foto}}" class="card-img-top" alt="...">
                                 <div class="card-body ">
 
 
-                                    <h5 class="card-title">El Pinar</h5>
+                                    <h5 class="card-title">{{$dato->titulo}}</h5>
 
                                     <hr>
                                     <div class="row">
                                         <div class="col-md-3 text-center">
-                                            <p><i class="fa fa-users"></i> 5</p>
+                                            <p><i class="fa fa-users"></i><br> 5</p>
                                         </div>
                                         <div class="col-md-3">
-                                            <p><i class="fa fa-bed" aria-hidden="true"></i> 3</p>
+                                            <p><i class="fa fa-bed" aria-hidden="true"></i><br> 3</p>
                                         </div>
 
                                         <div class="col-md-3">
-                                            <p><i class="fa fa-car" aria-hidden="true"></i> Si</p>
+                                            <p><i class="fa fa-car" aria-hidden="true"></i><br> Si</p>
                                         </div>
                                         <div class="col-md-3">
-                                            <p><i class="fa fa-wifi" aria-hidden="true"></i> Si</p>
+                                            <p><i class="fa fa-wifi" aria-hidden="true"></i><br> Si</p>
                                         </div>
 
 
                                     </div>
                                     <div class="row">
                                         <div class="col-md-12">
-                                            <p><i class="fa fa-map-marker" aria-hidden="true"></i> Las vegas</p>
+                                            <p><i class="fa fa-map-marker" aria-hidden="true"></i> {{$dato->ubicacion}}</p>
                                         </div>
                                         <div class="col-md-12">
                                             <p><span class="badge badge-success">9.4</span> Excelente</p>
                                         </div>
 
                                     </div>
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <p style="color:green;"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> Disponible</p>
-
-                                        </div>
-
-                                    </div>
+                                    
                                     <div class="text-center">
-                                      <a href="detalles"><button type="button" class="btn btn-info willi">Detalles</button></a>
+                                      <a href="detalles/{{$dato->id_cabanas}}"><button type="button" class="btn btn-secondary willi" style="border-radius:25px">Detalles</button></a>
                                     </div>
 
                                  </div>
@@ -161,7 +156,10 @@ background: linear-gradient(90deg, rgba(186,187,187,1) 6%, rgba(255,255,255,0) 8
 
                         </a>
                     </div>
-                    <div class="col-md-3">
+                    @empty
+                    <p>No hay cabañas publicadas</p>
+                    @endforelse
+                    <!-- <div class="col-md-3">
                         <a href="#" class="card-listado-cabanas" style="text-decoration:none">
                             <div class="card cuerpo-listado-cabanas">
                                 <img src="/img/02.jpeg" class="card-img-top" alt="...">
@@ -304,9 +302,9 @@ background: linear-gradient(90deg, rgba(186,187,187,1) 6%, rgba(255,255,255,0) 8
                                 </div>
                             </div>
                         </a>
-                    </div>
+                    </div> -->
                 </div>
-                <div class="row mt-5">
+                <!-- <div class="row mt-5">
                     <div class="col-md-3">
                         <a href="#" class="card-listado-cabanas" style="text-decoration:none">
                             <div class="card cuerpo-listado-cabanas">
@@ -693,7 +691,7 @@ background: linear-gradient(90deg, rgba(186,187,187,1) 6%, rgba(255,255,255,0) 8
                             </div>
                         </a>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>

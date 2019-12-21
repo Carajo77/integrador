@@ -87,10 +87,13 @@
                                 <a class="nav-link" href="/home">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/mis-cabanas">Mis Cabañas</a>
+                              <a class="nav-link" href="/cabanas">Alojamiento</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/mis-reservas">Mis Reservas</a>
+                                <a class="nav-link" href="/mis-cabanas/{{ Auth::user()->id }}">Mis Cabañas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/mis-reservas/{{ Auth::user()->id }}">Mis Reservas</a>
                             </li>
                             <!-- <li class="nav-item">
                                 <a class="nav-link" href="{{ route('login') }}">Cupones</a>

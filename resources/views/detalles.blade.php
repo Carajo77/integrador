@@ -11,7 +11,7 @@
     <div class="container">
       <div class="row">
           <div class="col-md-12 nombreCabaña-w">
-          <h1 class="willi-title">Nombre Cabaña</h1>
+          <h1 class="willi-title">{{$datos->titulo}}</h1>
          </div>
     </div>
       <div class="row todo-w">
@@ -21,13 +21,13 @@
           <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active" data-interval="10000">
-      <img src="/img/leñas.jpg" class="d-block w-100" alt="...">
+      <img src="/storage/{{$datos->foto}}" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item" data-interval="2000">
-      <img src="/img/diqueee.jpg" class="d-block w-100" alt="...">
+      <img src="/storage/{{$datos->foto}}" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="/img/aventuras-bici.jpg" class="d-block w-100" alt="...">
+      <img src="/storage/{{$datos->foto}}" class="d-block w-100" alt="...">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
@@ -39,7 +39,7 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-          <p class="p-w">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p class="p-w">/storage/{{$datos->descripcion}}</p>
 
 
         </div>
@@ -81,7 +81,7 @@
 
 
               <div class="col-md-12">
-              <button type="button" class="btn btn-primary btn-lg btn-block">Verificar Disponibilidad</button>
+              <button type="button" class="btn btn-primary btn-lg btn-block" style="width:100%;border-radius:25px;background-color:#038C7A;">Verificar Disponibilidad</button>
               </div>
 
 

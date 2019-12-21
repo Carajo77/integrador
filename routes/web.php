@@ -14,9 +14,10 @@
 Route::get('/', function () {
     return view('inicio');
 });
-Route::get('/detalles',function (){
-  return view('detalles');
-});
+Route::get('/detalles/{id}','CabanasController@detalle');
+// Route::get('/detalles/{id}',function (){
+//   return view('detalles');
+// });
 Route::get('/ingreso',function (){
    return view('ingreso');
 });
@@ -77,6 +78,12 @@ Route::get('/perfil-user', function(){
 Route::post('/guardar-usuario',"usuariosController@actualizar");
 Route::post('/guardar-foto-usuario',"usuariosController@foto");
 
-Route::get('/mis-cabanas', function(){
-  return view('/mis-cabanas-user');
-});
+Route::get('/mis-cabanas/{id}',"CabanasController@mostrar");
+
+Route::get('/mis-reservas/{id}',"CabanasController@reservas");
+
+// Route::get('/mis-cabanas', function(){
+//   
+// });
+
+Route::post('/mis-cabanas-agregar',"CabanasController@agregar");
