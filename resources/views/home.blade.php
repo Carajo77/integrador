@@ -13,8 +13,8 @@
               <h1 class="pablo-p">Destinos</h1>
               <div class="row">
                 <div class="col-md-3">
-                  <img class="img-f" src="/img/diqueee.jpg" alt="">
-                  <h4 class="pablo-pablo" >Potrerillos</h4>
+                  <a class="seba-f-f-f" href="/potrerillos"><img class="img-f" src="/img/diqueee.jpg" alt="" >
+                  <h4 class="pablo-pablo" >Potrerillos</h4></a>
                 </div>
                 <div class="col-md-3">
                   <img class="img-f" src="/img/leñas.jpg" alt="">
