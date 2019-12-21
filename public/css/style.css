@@ -273,6 +273,7 @@ body {
 	text-align: right;
 	margin-right: 10px;
 	padding-right: 89px;
+	font-family: "";
 }
 
 .foto-inicio-seba1{
@@ -289,9 +290,13 @@ body {
 	margin-left: 10px;
 	padding-left: 89px;
 	text-decoration: none;
+  font-family: "";
 }
 
 .hiper-seba-pablo{
+	text-decoration: none;
+}
+.hiper-seba-pablo:hover{
 	text-decoration: none;
 }
 
@@ -358,7 +363,7 @@ body {
 }
 
 body{
-	    font-family: 'Ubuntu', sans-serif;
+	    font-family:"Comfortaa-Regular";
 }
 .imagen-usuario-nav {
 	width: 40px;
@@ -371,3 +376,7 @@ body{
 .pablo-pablo-pablo {
 	padding-top: 200px;
 	}
+
+.nav-link{
+	font-family:"GothamRnd-Medium";
+}

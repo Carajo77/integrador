@@ -18,6 +18,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="/css/estilos-fuentes.css">
     <link rel="stylesheet" href="/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -41,8 +42,8 @@
 
                         @endguest
 
-                        
-               
+
+
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -113,9 +114,9 @@
                                     </form>
                                 </div>
                             </li>
-                            
-                                
-                            
+
+
+
                             <!-- <li class="nav-item">
                                 <a href="" class="nav-link"></a>
                             </li> -->
@@ -130,7 +131,7 @@
                          <img src="/storage/{{ Auth::user()->foto }}" alt="" class="img-fluid imagen-usuario-nav">
 
                         @endguest
-                      
+
                 </div>
             </div>
         </nav>

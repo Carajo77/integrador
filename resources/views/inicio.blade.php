@@ -79,44 +79,7 @@
     </div>
 
 
-  <!-- CONTACTO -->
-  <div class="container-fluid  fondo-contacto" style="padding-left:0;padding-right:0">
-    <div class="container-fluid fondo-con-opacidad pt-5 pb-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <form method="POST" action="/form-contacto">
-              {{csrf_field()}}
-              <div class="form-group">
-                <label for="">Nombre</label>
-                <input type="text" name="nombre" class="form-control" placeholder="Ingresar nombre" required>
-              </div>
-              <div class="form-group">
-                <label for="exampleInputEmail1">Email</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Colocar email" name="email"  required>
-              </div>
-              <div class="form-group">
-                <label for="">Consulta</label>
-                <textarea class="form-control" name="consulta" id="" cols="30" rows="10" required>
-
-                </textarea>
-              </div>
-              <button type="submit" class="btn btn-success boton-enviar">Enviar</button>
-            </form>
-          </div>
-          <div class="col-md-6 text-center">
-            <h3>Informacion de contacto</h3>
-            <p><i class="fa fa-envelope" aria-hidden="true"></i> Email: info@dominio.com</p>
-            <p><i class="fa fa-phone-square" aria-hidden="true"></i> Teléfono: 34534534</p>
-            <p><i class="fa fa-map-marker" aria-hidden="true"></i> Dirección: av.siempre viva </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-
-
+  
 
 
 
