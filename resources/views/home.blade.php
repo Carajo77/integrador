@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<<<<<<< HEAD
+
 <div class="container-fluid">
     <div class="container">
       <div class="row">
@@ -40,22 +40,6 @@
                 <div class="col-md-3">
                   <img class="img-f" src="/img/aventuras-bici.jpg" alt="">
                   <h4 class="pablo-pablo" >Mountain Bike</h4>
-=======
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">¡Bienvenido  {{ Auth::user()->name }}!</div>
-
-                <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                    @endif
-
-                    Este es tu email: {{ Auth::user()->email }}
->>>>>>> 9b33bc1e3672ad01a6b3b2a5ae72af7dc51508d5
                 </div>
                 <div class="col-md-3">
                   <img class="img-f" src="/img/cabalgatas.jpg" alt="">
@@ -74,8 +58,4 @@
             </div>
 
           </div>
-        </div>
-      </div>
-    </div>
-</div>
 @endsection
