@@ -14,7 +14,7 @@
           <div class="col-md-12">
             <div class="caja-1-alojamiento">
               <h1 class="div-alojamiento"><strong>Alojamientos en Antû </strong></h1>
-              <p class="div-alojamiento">Conoce los distintos alojaminetos que hay en Mendoza.</p>
+              <p class="div-alojamiento1">Conoce los distintos alojaminetos que hay en Mendoza.</p>
               <button class="boton-alojamiento" type="button" name="button">Mas Info</button>
             </div>
           </div>

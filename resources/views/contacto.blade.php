@@ -12,25 +12,25 @@
             <form method="POST" action="/form-contacto">
               {{csrf_field()}}
               <div class="form-group">
-                <label for="">Nombre</label>
+                <label for="" class="pablo-c">Nombre</label>
                 <input type="text" name="nombre" class="form-control" placeholder="Ingresar nombre" required>
               </div>
               <div class="form-group">
-                <label for="exampleInputEmail1">Email</label>
+                <label for="exampleInputEmail1" class="pablo-c">Email</label>
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Colocar email" name="email"  required>
               </div>
               <div class="form-group">
-                <label for="">Consulta</label>
+                <label for="" class="pablo-c">Consulta</label>
                 <textarea class="form-control" name="consulta" id="" cols="30" rows="10" required>
 
                 </textarea>
               </div>
-              <button type="submit" class="btn btn-success boton-enviar">Enviar</button>
+              <button type="submit" class="btn btn-success boton-enviar" class="pablo-c">Enviar</button>
             </form>
           </div>
           <div class="col-md-6 text-center">
             <h3 class="pablo-pablo-pablo">Informacion de contacto</h3>
-            <p><i class="fa fa-envelope" aria-hidden="true"></i> Email: info@dominio.com</p>
+            <p><i class="fa fa-envelope" aria-hidden="true" ></i> Email: info@dominio.com</p>
             <p><i class="fa fa-phone-square" aria-hidden="true"></i> Teléfono: 34534534</p>
             <p><i class="fa fa-map-marker" aria-hidden="true"></i> Dirección: av.siempre viva </p>
           </div>
@@ -48,7 +48,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h2 class="preguntas-frecuentes"><strong>Preguntas Frecuentes</strong></h2>
+        <h2 class="preguntas-frecuentes"><strong class="pablo-d">Preguntas Frecuentes</strong></h2>
       </div>
       <div class="col-md-12">
         <div class="accordion" id="accordionExample">
@@ -136,7 +136,7 @@
                 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
               </div>
             </div>
-          </div>  
+          </div>
           <div class="card">
             <div class="card-header" id="headingThree">
               <h2 class="mb-0">
