@@ -79,7 +79,11 @@
     </div>
 
 
-  
+
+    <hr>
+
+    <h1>Cabañas Destacadas</h1>
+
 
 
 

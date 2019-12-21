@@ -42,6 +42,9 @@ Route::get('/alojamiento',function (){
 Route::get('/mis-reservas',function (){
   return view('mis-reservas');
 });
+Route::get('/potrerillos',function (){
+  return view('potrerillos');
+});
 
 Route::get('/cabanas','CabanasController@listado');
 
