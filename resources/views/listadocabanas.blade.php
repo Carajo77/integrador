@@ -8,8 +8,8 @@ background: linear-gradient(90deg, rgba(186,187,187,1) 6%, rgba(255,255,255,0) 8
         <h1 class="text-white">Viví una experiencia unica</h1>
     </div>
     </div>
-    
-    
+
+
 </div>
 <div class="container-fluid mt-4">
     <div class="container">
@@ -33,7 +33,7 @@ background: linear-gradient(90deg, rgba(186,187,187,1) 6%, rgba(255,255,255,0) 8
 
                             <div class="row">
                                 <div class="col-md-12">
-                                  
+
                                   <div class="input-group mb-2">
                                     <div class="input-group-prepend">
                                       <div class="input-group-text"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
@@ -47,14 +47,14 @@ background: linear-gradient(90deg, rgba(186,187,187,1) 6%, rgba(255,255,255,0) 8
                                         <option value="">Sobre rio Blanco</option>
                                         <option value="">Valle del Sol</option>
                                     </select>
-                                    
+
                                   </div>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="col-md-12">
-                                  
+
                                   <div class="input-group mb-2">
                                     <div class="input-group-prepend">
                                       <div class="input-group-text"><i class="fa fa-star" aria-hidden="true"></i></div>
@@ -68,7 +68,7 @@ background: linear-gradient(90deg, rgba(186,187,187,1) 6%, rgba(255,255,255,0) 8
                                         <option value="">+ 5</option>
                                         <option value="">+ 6</option>
                                     </select>
-                                    
+
                                   </div>
                                 </div>
                             </div>
@@ -79,7 +79,7 @@ background: linear-gradient(90deg, rgba(186,187,187,1) 6%, rgba(255,255,255,0) 8
                                 <div class="col-auto">
                                 <label for="">Desde </label>
                                   <div class="input-group mb-2">
-                                    
+
                                     <div class="input-group-prepend">
                                       <div class="input-group-text"><i class="fa fa-calendar" aria-hidden="true"></i></div>
                                     </div>
@@ -115,9 +115,9 @@ background: linear-gradient(90deg, rgba(186,187,187,1) 6%, rgba(255,255,255,0) 8
                                 <img src="/img/03.jpeg" class="card-img-top" alt="...">
                                 <div class="card-body ">
 
-                                    
+
                                     <h5 class="card-title">El Pinar</h5>
-                                   
+
                                     <hr>
                                     <div class="row">
                                         <div class="col-md-3 text-center">
@@ -126,15 +126,15 @@ background: linear-gradient(90deg, rgba(186,187,187,1) 6%, rgba(255,255,255,0) 8
                                         <div class="col-md-3">
                                             <p><i class="fa fa-bed" aria-hidden="true"></i> 3</p>
                                         </div>
-                                        
+
                                         <div class="col-md-3">
                                             <p><i class="fa fa-car" aria-hidden="true"></i> Si</p>
                                         </div>
                                         <div class="col-md-3">
                                             <p><i class="fa fa-wifi" aria-hidden="true"></i> Si</p>
                                         </div>
-                                        
-                                        
+
+
                                     </div>
                                     <div class="row">
                                         <div class="col-md-12">
@@ -143,16 +143,22 @@ background: linear-gradient(90deg, rgba(186,187,187,1) 6%, rgba(255,255,255,0) 8
                                         <div class="col-md-12">
                                             <p><span class="badge badge-success">9.4</span> Excelente</p>
                                         </div>
+
                                     </div>
                                     <div class="row">
                                         <div class="col-md-12">
                                             <p style="color:green;"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> Disponible</p>
-                                            
+
                                         </div>
+
+                                    </div>
+                                    <div class="text-center">
+                                      <a href="detalles"><button type="button" class="btn btn-info willi">Detalles</button></a>
                                     </div>
 
-                                </div>
+                                 </div>
                             </div>
+
                         </a>
                     </div>
                     <div class="col-md-3">
@@ -161,9 +167,9 @@ background: linear-gradient(90deg, rgba(186,187,187,1) 6%, rgba(255,255,255,0) 8
                                 <img src="/img/02.jpeg" class="card-img-top" alt="...">
                                 <div class="card-body ">
 
-                                    
+
                                     <h5 class="card-title">El Pinar</h5>
-                                   
+
                                     <hr>
                                     <div class="row">
                                         <div class="col-md-3 text-center">
@@ -172,15 +178,15 @@ background: linear-gradient(90deg, rgba(186,187,187,1) 6%, rgba(255,255,255,0) 8
                                         <div class="col-md-3">
                                             <p><i class="fa fa-bed" aria-hidden="true"></i> 3</p>
                                         </div>
-                                        
+
                                         <div class="col-md-3">
                                             <p><i class="fa fa-car" aria-hidden="true"></i> Si</p>
                                         </div>
                                         <div class="col-md-3">
                                             <p><i class="fa fa-wifi" aria-hidden="true"></i> Si</p>
                                         </div>
-                                        
-                                        
+
+
                                     </div>
                                     <div class="row">
                                         <div class="col-md-12">
@@ -193,10 +199,12 @@ background: linear-gradient(90deg, rgba(186,187,187,1) 6%, rgba(255,255,255,0) 8
                                     <div class="row">
                                         <div class="col-md-12">
                                             <p style="color:green;"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> Disponible</p>
-                                            
+
                                         </div>
                                     </div>
-
+                                    <div class="text-center">
+                                      <a href="detalles"><button type="button" class="btn btn-info willi">Detalles</button></a>
+                                    </div>
                                 </div>
                             </div>
                         </a>
@@ -207,9 +215,9 @@ background: linear-gradient(90deg, rgba(186,187,187,1) 6%, rgba(255,255,255,0) 8
                                 <img src="/img/01.jpeg" class="card-img-top" alt="...">
                                 <div class="card-body ">
 
-                                    
+
                                     <h5 class="card-title">El Pinar</h5>
-                                   
+
                                     <hr>
                                     <div class="row">
                                         <div class="col-md-3 text-center">
@@ -218,15 +226,15 @@ background: linear-gradient(90deg, rgba(186,187,187,1) 6%, rgba(255,255,255,0) 8
                                         <div class="col-md-3">
                                             <p><i class="fa fa-bed" aria-hidden="true"></i> 3</p>
                                         </div>
-                                        
+
                                         <div class="col-md-3">
                                             <p><i class="fa fa-car" aria-hidden="true"></i> Si</p>
                                         </div>
                                         <div class="col-md-3">
                                             <p><i class="fa fa-wifi" aria-hidden="true"></i> Si</p>
                                         </div>
-                                        
-                                        
+
+
                                     </div>
                                     <div class="row">
                                         <div class="col-md-12">
@@ -239,10 +247,12 @@ background: linear-gradient(90deg, rgba(186,187,187,1) 6%, rgba(255,255,255,0) 8
                                     <div class="row">
                                         <div class="col-md-12">
                                             <p style="color:green;"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> Disponible</p>
-                                            
+
                                         </div>
                                     </div>
-
+                                    <div class="text-center">
+                                      <a href="detalles"><button type="button" class="btn btn-info willi">Detalles</button></a>
+                                    </div>
                                 </div>
                             </div>
                         </a>
@@ -253,9 +263,9 @@ background: linear-gradient(90deg, rgba(186,187,187,1) 6%, rgba(255,255,255,0) 8
                                 <img src="/img/01.jpeg" class="card-img-top" alt="...">
                                 <div class="card-body ">
 
-                                    
+
                                     <h5 class="card-title">El Pinar</h5>
-                                   
+
                                     <hr>
                                     <div class="row">
                                         <div class="col-md-3 text-center">
@@ -264,15 +274,15 @@ background: linear-gradient(90deg, rgba(186,187,187,1) 6%, rgba(255,255,255,0) 8
                                         <div class="col-md-3">
                                             <p><i class="fa fa-bed" aria-hidden="true"></i> 3</p>
                                         </div>
-                                        
+
                                         <div class="col-md-3">
                                             <p><i class="fa fa-car" aria-hidden="true"></i> Si</p>
                                         </div>
                                         <div class="col-md-3">
                                             <p><i class="fa fa-wifi" aria-hidden="true"></i> Si</p>
                                         </div>
-                                        
-                                        
+
+
                                     </div>
                                     <div class="row">
                                         <div class="col-md-12">
@@ -285,10 +295,12 @@ background: linear-gradient(90deg, rgba(186,187,187,1) 6%, rgba(255,255,255,0) 8
                                     <div class="row">
                                         <div class="col-md-12">
                                             <p style="color:green;"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> Disponible</p>
-                                            
+
                                         </div>
                                     </div>
-
+                                    <div class="text-center">
+                                      <a href="detalles"><button type="button" class="btn btn-info willi">Detalles</button></a>
+                                    </div>
                                 </div>
                             </div>
                         </a>
@@ -301,9 +313,9 @@ background: linear-gradient(90deg, rgba(186,187,187,1) 6%, rgba(255,255,255,0) 8
                                 <img src="/img/01.jpeg" class="card-img-top" alt="...">
                                 <div class="card-body ">
 
-                                    
+
                                     <h5 class="card-title">El Pinar</h5>
-                                   
+
                                     <hr>
                                     <div class="row">
                                         <div class="col-md-3 text-center">
@@ -312,15 +324,15 @@ background: linear-gradient(90deg, rgba(186,187,187,1) 6%, rgba(255,255,255,0) 8
                                         <div class="col-md-3">
                                             <p><i class="fa fa-bed" aria-hidden="true"></i> 3</p>
                                         </div>
-                                        
+
                                         <div class="col-md-3">
                                             <p><i class="fa fa-car" aria-hidden="true"></i> Si</p>
                                         </div>
                                         <div class="col-md-3">
                                             <p><i class="fa fa-wifi" aria-hidden="true"></i> Si</p>
                                         </div>
-                                        
-                                        
+
+
                                     </div>
                                     <div class="row">
                                         <div class="col-md-12">
@@ -333,10 +345,12 @@ background: linear-gradient(90deg, rgba(186,187,187,1) 6%, rgba(255,255,255,0) 8
                                     <div class="row">
                                         <div class="col-md-12">
                                             <p style="color:green;"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> Disponible</p>
-                                            
+
                                         </div>
                                     </div>
-
+                                    <div class="text-center">
+                                      <a href="detalles"><button type="button" class="btn btn-info willi">Detalles</button></a>
+                                    </div>
                                 </div>
                             </div>
                         </a>
@@ -347,9 +361,9 @@ background: linear-gradient(90deg, rgba(186,187,187,1) 6%, rgba(255,255,255,0) 8
                                 <img src="/img/02.jpeg" class="card-img-top" alt="...">
                                 <div class="card-body ">
 
-                                    
+
                                     <h5 class="card-title">El Pinar</h5>
-                                   
+
                                     <hr>
                                     <div class="row">
                                         <div class="col-md-3 text-center">
@@ -358,15 +372,15 @@ background: linear-gradient(90deg, rgba(186,187,187,1) 6%, rgba(255,255,255,0) 8
                                         <div class="col-md-3">
                                             <p><i class="fa fa-bed" aria-hidden="true"></i> 3</p>
                                         </div>
-                                        
+
                                         <div class="col-md-3">
                                             <p><i class="fa fa-car" aria-hidden="true"></i> Si</p>
                                         </div>
                                         <div class="col-md-3">
                                             <p><i class="fa fa-wifi" aria-hidden="true"></i> Si</p>
                                         </div>
-                                        
-                                        
+
+
                                     </div>
                                     <div class="row">
                                         <div class="col-md-12">
@@ -379,10 +393,12 @@ background: linear-gradient(90deg, rgba(186,187,187,1) 6%, rgba(255,255,255,0) 8
                                     <div class="row">
                                         <div class="col-md-12">
                                             <p style="color:green;"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> Disponible</p>
-                                            
+
                                         </div>
                                     </div>
-
+                                    <div class="text-center">
+                                      <a href="detalles"><button type="button" class="btn btn-info willi">Detalles</button></a>
+                                    </div>
                                 </div>
                             </div>
                         </a>
@@ -393,9 +409,9 @@ background: linear-gradient(90deg, rgba(186,187,187,1) 6%, rgba(255,255,255,0) 8
                                 <img src="/img/03.jpeg" class="card-img-top" alt="...">
                                 <div class="card-body ">
 
-                                    
+
                                     <h5 class="card-title">El Pinar</h5>
-                                   
+
                                     <hr>
                                     <div class="row">
                                         <div class="col-md-3 text-center">
@@ -404,15 +420,15 @@ background: linear-gradient(90deg, rgba(186,187,187,1) 6%, rgba(255,255,255,0) 8
                                         <div class="col-md-3">
                                             <p><i class="fa fa-bed" aria-hidden="true"></i> 3</p>
                                         </div>
-                                        
+
                                         <div class="col-md-3">
                                             <p><i class="fa fa-car" aria-hidden="true"></i> Si</p>
                                         </div>
                                         <div class="col-md-3">
                                             <p><i class="fa fa-wifi" aria-hidden="true"></i> Si</p>
                                         </div>
-                                        
-                                        
+
+
                                     </div>
                                     <div class="row">
                                         <div class="col-md-12">
@@ -425,10 +441,12 @@ background: linear-gradient(90deg, rgba(186,187,187,1) 6%, rgba(255,255,255,0) 8
                                     <div class="row">
                                         <div class="col-md-12">
                                             <p style="color:green;"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> Disponible</p>
-                                            
+
                                         </div>
                                     </div>
-
+                                    <div class="text-center">
+                                      <a href="detalles"><button type="button" class="btn btn-info willi">Detalles</button></a>
+                                    </div>
                                 </div>
                             </div>
                         </a>
@@ -439,9 +457,9 @@ background: linear-gradient(90deg, rgba(186,187,187,1) 6%, rgba(255,255,255,0) 8
                                 <img src="/img/02.jpeg" class="card-img-top" alt="...">
                                 <div class="card-body ">
 
-                                    
+
                                     <h5 class="card-title">El Pinar</h5>
-                                   
+
                                     <hr>
                                     <div class="row">
                                         <div class="col-md-3 text-center">
@@ -450,15 +468,15 @@ background: linear-gradient(90deg, rgba(186,187,187,1) 6%, rgba(255,255,255,0) 8
                                         <div class="col-md-3">
                                             <p><i class="fa fa-bed" aria-hidden="true"></i> 3</p>
                                         </div>
-                                        
+
                                         <div class="col-md-3">
                                             <p><i class="fa fa-car" aria-hidden="true"></i> Si</p>
                                         </div>
                                         <div class="col-md-3">
                                             <p><i class="fa fa-wifi" aria-hidden="true"></i> Si</p>
                                         </div>
-                                        
-                                        
+
+
                                     </div>
                                     <div class="row">
                                         <div class="col-md-12">
@@ -471,10 +489,12 @@ background: linear-gradient(90deg, rgba(186,187,187,1) 6%, rgba(255,255,255,0) 8
                                     <div class="row">
                                         <div class="col-md-12">
                                             <p style="color:green;"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> Disponible</p>
-                                            
+
                                         </div>
                                     </div>
-
+                                    <div class="text-center">
+                                      <a href="detalles"><button type="button" class="btn btn-info willi">Detalles</button></a>
+                                    </div>
                                 </div>
                             </div>
                         </a>
@@ -487,9 +507,9 @@ background: linear-gradient(90deg, rgba(186,187,187,1) 6%, rgba(255,255,255,0) 8
                                 <img src="/img/01.jpeg" class="card-img-top" alt="...">
                                 <div class="card-body ">
 
-                                    
+
                                     <h5 class="card-title">El Pinar</h5>
-                                   
+
                                     <hr>
                                     <div class="row">
                                         <div class="col-md-3 text-center">
@@ -498,15 +518,15 @@ background: linear-gradient(90deg, rgba(186,187,187,1) 6%, rgba(255,255,255,0) 8
                                         <div class="col-md-3">
                                             <p><i class="fa fa-bed" aria-hidden="true"></i> 3</p>
                                         </div>
-                                        
+
                                         <div class="col-md-3">
                                             <p><i class="fa fa-car" aria-hidden="true"></i> Si</p>
                                         </div>
                                         <div class="col-md-3">
                                             <p><i class="fa fa-wifi" aria-hidden="true"></i> Si</p>
                                         </div>
-                                        
-                                        
+
+
                                     </div>
                                     <div class="row">
                                         <div class="col-md-12">
@@ -519,10 +539,12 @@ background: linear-gradient(90deg, rgba(186,187,187,1) 6%, rgba(255,255,255,0) 8
                                     <div class="row">
                                         <div class="col-md-12">
                                             <p style="color:green;"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> Disponible</p>
-                                            
+
                                         </div>
                                     </div>
-
+                                    <div class="text-center">
+                                      <a href="detalles"><button type="button" class="btn btn-info willi">Detalles</button></a>
+                                    </div>
                                 </div>
                             </div>
                         </a>
@@ -533,9 +555,9 @@ background: linear-gradient(90deg, rgba(186,187,187,1) 6%, rgba(255,255,255,0) 8
                                 <img src="/img/03.jpeg" class="card-img-top" alt="...">
                                 <div class="card-body ">
 
-                                    
+
                                     <h5 class="card-title">El Pinar</h5>
-                                   
+
                                     <hr>
                                     <div class="row">
                                         <div class="col-md-3 text-center">
@@ -544,15 +566,15 @@ background: linear-gradient(90deg, rgba(186,187,187,1) 6%, rgba(255,255,255,0) 8
                                         <div class="col-md-3">
                                             <p><i class="fa fa-bed" aria-hidden="true"></i> 3</p>
                                         </div>
-                                        
+
                                         <div class="col-md-3">
                                             <p><i class="fa fa-car" aria-hidden="true"></i> Si</p>
                                         </div>
                                         <div class="col-md-3">
                                             <p><i class="fa fa-wifi" aria-hidden="true"></i> Si</p>
                                         </div>
-                                        
-                                        
+
+
                                     </div>
                                     <div class="row">
                                         <div class="col-md-12">
@@ -565,10 +587,12 @@ background: linear-gradient(90deg, rgba(186,187,187,1) 6%, rgba(255,255,255,0) 8
                                     <div class="row">
                                         <div class="col-md-12">
                                             <p style="color:green;"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> Disponible</p>
-                                            
+
                                         </div>
                                     </div>
-
+                                    <div class="text-center">
+                                      <a href="detalles"><button type="button" class="btn btn-info willi">Detalles</button></a>
+                                    </div>
                                 </div>
                             </div>
                         </a>
@@ -579,9 +603,9 @@ background: linear-gradient(90deg, rgba(186,187,187,1) 6%, rgba(255,255,255,0) 8
                                 <img src="/img/01.jpeg" class="card-img-top" alt="...">
                                 <div class="card-body ">
 
-                                    
+
                                     <h5 class="card-title">El Pinar</h5>
-                                   
+
                                     <hr>
                                     <div class="row">
                                         <div class="col-md-3 text-center">
@@ -590,15 +614,15 @@ background: linear-gradient(90deg, rgba(186,187,187,1) 6%, rgba(255,255,255,0) 8
                                         <div class="col-md-3">
                                             <p><i class="fa fa-bed" aria-hidden="true"></i> 3</p>
                                         </div>
-                                        
+
                                         <div class="col-md-3">
                                             <p><i class="fa fa-car" aria-hidden="true"></i> Si</p>
                                         </div>
                                         <div class="col-md-3">
                                             <p><i class="fa fa-wifi" aria-hidden="true"></i> Si</p>
                                         </div>
-                                        
-                                        
+
+
                                     </div>
                                     <div class="row">
                                         <div class="col-md-12">
@@ -611,10 +635,12 @@ background: linear-gradient(90deg, rgba(186,187,187,1) 6%, rgba(255,255,255,0) 8
                                     <div class="row">
                                         <div class="col-md-12">
                                             <p style="color:green;"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> Disponible</p>
-                                            
+
                                         </div>
                                     </div>
-
+                                    <div class="text-center">
+                                      <a href="detalles"><button type="button" class="btn btn-info willi">Detalles</button></a>
+                                    </div>
                                 </div>
                             </div>
                         </a>
@@ -625,9 +651,9 @@ background: linear-gradient(90deg, rgba(186,187,187,1) 6%, rgba(255,255,255,0) 8
                                 <img src="/img/01.jpeg" class="card-img-top" alt="...">
                                 <div class="card-body ">
 
-                                    
+
                                     <h5 class="card-title">El Pinar</h5>
-                                   
+
                                     <hr>
                                     <div class="row">
                                         <div class="col-md-3 text-center">
@@ -636,15 +662,15 @@ background: linear-gradient(90deg, rgba(186,187,187,1) 6%, rgba(255,255,255,0) 8
                                         <div class="col-md-3">
                                             <p><i class="fa fa-bed" aria-hidden="true"></i> 3</p>
                                         </div>
-                                        
+
                                         <div class="col-md-3">
                                             <p><i class="fa fa-car" aria-hidden="true"></i> Si</p>
                                         </div>
                                         <div class="col-md-3">
                                             <p><i class="fa fa-wifi" aria-hidden="true"></i> Si</p>
                                         </div>
-                                        
-                                        
+
+
                                     </div>
                                     <div class="row">
                                         <div class="col-md-12">
@@ -657,10 +683,12 @@ background: linear-gradient(90deg, rgba(186,187,187,1) 6%, rgba(255,255,255,0) 8
                                     <div class="row">
                                         <div class="col-md-12">
                                             <p style="color:green;"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> Disponible</p>
-                                            
+
                                         </div>
                                     </div>
-
+                                    <div class="text-center">
+                                      <a href="detalles"><button type="button" class="btn btn-info willi">Detalles</button></a>
+                                    </div>
                                 </div>
                             </div>
                         </a>

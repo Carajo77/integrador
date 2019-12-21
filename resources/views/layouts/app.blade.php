@@ -18,9 +18,12 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="/css/estilos-fuentes.css">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/sebas.css">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
     <div id="app">
@@ -41,8 +44,8 @@
 
                         @endguest
 
-                        
-               
+
+
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -87,7 +90,7 @@
                                 <a class="nav-link" href="/mis-cabanas">Mis Cabañas</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/resservas">Mis Reservas</a>
+                                <a class="nav-link" href="/mis-reservas">Mis Reservas</a>
                             </li>
                             <!-- <li class="nav-item">
                                 <a class="nav-link" href="{{ route('login') }}">Cupones</a>
@@ -113,9 +116,9 @@
                                     </form>
                                 </div>
                             </li>
-                            
-                                
-                            
+
+
+
                             <!-- <li class="nav-item">
                                 <a href="" class="nav-link"></a>
                             </li> -->
@@ -130,7 +133,7 @@
                          <img src="/storage/{{ Auth::user()->foto }}" alt="" class="img-fluid imagen-usuario-nav">
 
                         @endguest
-                      
+
                 </div>
             </div>
         </nav>
@@ -138,6 +141,12 @@
         <main>
             @yield('content')
         </main>
+
     </div>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+    <script src="/js/polyfiller.js"></script>
 </body>
 </html>
