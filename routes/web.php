@@ -14,6 +14,9 @@
 Route::get('/', function () {
     return view('inicio');
 });
+Route::get('/detalles',function (){
+  return view('detalles');
+});
 Route::get('/ingreso',function (){
    return view('ingreso');
 });
@@ -35,6 +38,9 @@ Route::get('/preguntas-frecuentes',function (){
 });
 Route::get('/alojamiento',function (){
   return view('alojamiento');
+});
+Route::get('/mis-reservas',function (){
+  return view('mis-reservas');
 });
 
 Route::get('/cabanas','CabanasController@listado');
