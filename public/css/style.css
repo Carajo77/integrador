@@ -138,6 +138,7 @@ body {
 /*color del boton faq*/
 .btn-color-faq{
 	color:#05ddbf;
+	font-family: "GothamRnd-Book";
 
 }
 .btn-link:hover{
@@ -157,6 +158,12 @@ body {
 
 .div-alojamiento{
 	color:white;
+	font-family: "GothamRnd-Medium";
+}
+
+.div-alojamiento1{
+	color:white;
+	font-family: "Comfortaa-Light";
 }
 
 .caja-1-alojamiento{
@@ -178,6 +185,7 @@ body {
   	border-radius:25px;
 		width:130px;
 		height:40px;
+		font-family: "Comfortaa-Regular";
   }
 
   .boton-alojamiento:hover {
@@ -195,7 +203,8 @@ body {
 
 .lugares-para-ir{
 	margin-bottom: 20px;
-	text-align: center
+	text-align: center;
+	font-family: "Comfortaa-Regular";
 }
 
 /*.cajas-alojamiento{
@@ -226,6 +235,7 @@ body {
 	margin-left: 1px;
 	padding-left: 1px;
 	text-align: center;
+	font-family: "Comfortaa-Regular";
 }
 
 .cajas-alojamiento{
@@ -273,7 +283,7 @@ body {
 	text-align: right;
 	margin-right: 10px;
 	padding-right: 89px;
-	font-family: "";
+	font-family: "GothamRnd-Book";
 }
 
 .foto-inicio-seba1{
@@ -290,7 +300,7 @@ body {
 	margin-left: 10px;
 	padding-left: 89px;
 	text-decoration: none;
-  font-family: "";
+  font-family: "GothamRnd-Book";
 }
 
 .hiper-seba-pablo{
@@ -330,6 +340,7 @@ body {
 	  	border-radius:25px;
 			width:130px;
 			height:40px;
+			font-family: "GothamRnd-Light";
 }
 
 .img-f{
@@ -342,19 +353,23 @@ body {
 .pablo-pablo{
 	margin-top: 10px;
 	font-size: 20px;
+	font-family: "Comfortaa-Regular";
 }
 
 .pablo-p{
 	margin-bottom: 7px;
 	margin-top: 10px;
+	font-style: "GothamRnd-Medium";
 }
 
 .pablo-seba{
 	font-size: 40px;
+	font-family: "GothamRnd-Medium";
 }
 
 .pablo-seba-{
 	font-size: 20px;
+	font-family: "Comfortaa-Light";
 }
 
 .logo-cabanas{
@@ -375,6 +390,7 @@ body{
 
 .pablo-pablo-pablo {
 	padding-top: 200px;
+	font-family: "GothamRnd-Book";
 	}
 
 .nav-pills .nav-link.active {
@@ -410,3 +426,13 @@ body{
 	font-family:"GothamRnd-Medium";
 }
 
+<<<<<<< HEAD
+.pablo-c{
+	font-family: "GothamRnd-Book";
+}
+
+.pablo-d{
+	font-family: "GothamRnd-Book";
+}
+=======
+>>>>>>> 9b33bc1e3672ad01a6b3b2a5ae72af7dc51508d5

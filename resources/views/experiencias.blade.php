@@ -20,7 +20,7 @@
             <div class="caja-1-pablo">
               <h1 class="div-container"></h1>
               <div class="">
-                <h2 class="pablo-seba"><strong>AVENTURAS EN ANTÛ</strong></h2>
+                <h2 class="pablo-seba"><strong>AVENTURAS EN ANTÜ</strong></h2>
                 <p class="pablo-seba-">Disfruta de las mejores<br> experiencias: actividades, comidas y estadias</p>
               </div>
               <button class="boton-experiencias" type="button" name="button"><strong>Mas info ></strong></button>
