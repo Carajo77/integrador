@@ -393,10 +393,40 @@ body{
 	font-family: "GothamRnd-Book";
 	}
 
+.nav-pills .nav-link.active {
+	background-color: #038C7A;
+    border-radius: 25px;
+}
+.boton-mis-reservas {
+	background-color:#038C7A;
+	color:white;
+}
+.nav-pills .nav-link {
+	color:black;
+}
+.btn-agregar-cabana {
+	    width: 100%;
+    background-color: #038C7A;
+    border-radius: 25px;
+    color: white;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label:before {
+	background-color:#038C7A;
+}
+.input-con-radio {
+	border-radius:25px;
+	border: 1px solid #038C7A;
+}
+.input-con-radio:focus {
+	border-color: #038C7A;
+	box-shadow:0 0 0 0.2rem rgba(3,140,222,.25);
+}
+
 .nav-link{
 	font-family:"GothamRnd-Medium";
 }
 
+<<<<<<< HEAD
 .pablo-c{
 	font-family: "GothamRnd-Book";
 }
@@ -404,3 +434,5 @@ body{
 .pablo-d{
 	font-family: "GothamRnd-Book";
 }
+=======
+>>>>>>> 9b33bc1e3672ad01a6b3b2a5ae72af7dc51508d5
